@@ -1,5 +1,5 @@
 import Card from "./components/Card";
 function App() {
-  return <Card />;
+  return <Card body={"hola mundo"}/>;
 }
 export default App;
