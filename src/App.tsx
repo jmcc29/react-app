@@ -1,3 +1,4 @@
+import Button from "./components/Button";
 import Card, { CardBody } from "./components/Card";
 import List from "./components/List";
 /**
@@ -7,6 +8,7 @@ import List from "./components/List";
 
 function App() {
   const list: string[] = ["Elemento 1", "Elemento 2", "Elemento 3"];
+
   const handSelect = (elemento: string) => {
     console.log(elemento);
   };
@@ -22,6 +24,7 @@ function App() {
         text="Some quick example text to build on the card title and make up the bulk of the card's content."
       />
       {content()}
+      <Button >hola mundo</Button>
     </Card>
   );
 }
